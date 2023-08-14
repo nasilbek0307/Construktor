@@ -1,0 +1,342 @@
+@media screen and (max-width: 1250px) {
+  header nav .container {
+    max-width: 1150px;
+  }
+  header nav .container .search {
+    display: none;
+  }
+  header nav .container .icons .div .acc {
+    display: inline-block;
+  }
+  header nav .container .icons .div .acc input {
+    outline: none;
+    border: none;
+    width: 0;
+  }
+  header nav .container .icons .div .acc1 {
+    display: inline-block;
+  }
+  header nav .container .icons .div #search:checked + .acc {
+    right: 190px;
+    position: absolute;
+    display: flex;
+    padding: 15px 40px 15px 20px;
+    align-items: center;
+    gap: 10px;
+    width: 289px;
+    border-radius: 30px;
+    background: var(--white-white, #FFF);
+    box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
+  }
+  header nav .container .icons .div #search:checked + .acc label i {
+    font-size: 14px;
+    color: #ADB8CC;
+  }
+  header nav .container .icons .div #search:checked + .acc input {
+    width: 211px;
+  }
+  header nav .container .icons .div #search:checked + .acc input::-moz-placeholder {
+    color: var(--gray-blue-grey-blue-70, #7D8FB3);
+    font-feature-settings: "clig" off, "liga" off;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    font-size: 12px;
+    line-height: 20px;
+    color: var(--gray-blue-grey-blue-80, #ADB8CC);
+  }
+  header nav .container .icons .div #search:checked + .acc input::placeholder {
+    color: var(--gray-blue-grey-blue-70, #7D8FB3);
+    font-feature-settings: "clig" off, "liga" off;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    font-size: 12px;
+    line-height: 20px;
+    color: var(--gray-blue-grey-blue-80, #ADB8CC);
+  }
+  main section .new {
+    max-width: 1200px;
+    display: flex;
+    gap: 30px;
+    position: relative;
+  }
+  main section .new .menyu {
+    position: absolute;
+    width: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: 1s;
+    z-index: 10;
+  }
+  main section .new .center {
+    max-width: 1200px;
+    padding: 30px 45px;
+    padding-bottom: 100px;
+  }
+  main section .new #check:checked + .menyu {
+    width: 100px;
+    padding: 30px 25px;
+  }
+  main section .new .menyu3 {
+    position: absolute;
+    width: 0;
+    padding: 0;
+    right: 0;
+    overflow: hidden;
+    transition: 1s;
+  }
+  main section .new #check2:checked + .menyu3 {
+    width: 330px;
+    padding: 30px 25px;
+  }
+}
+@media screen and (max-width: 900px) {
+  header nav .container {
+    max-width: 718px;
+  }
+  header nav .container ul {
+    display: none;
+  }
+  main section .new .center {
+    max-width: 768px;
+    flex-direction: column;
+    padding: 38px 40px;
+  }
+  main section .new .center .menyu1 {
+    max-width: 768px;
+    padding: 0;
+    background: var(--gray-blue-grey-blue-98, #F7F8FA);
+  }
+  main section .new .center .menyu1 .plastikkarta {
+    max-width: 778px;
+    width: 100%;
+  }
+  main section .new .center .menyu1 .plastikkarta .planshet {
+    max-width: 690px;
+    height: 210px;
+    position: relative;
+  }
+  main section .new .center .menyu1 .plastikkarta .planshet .plastic {
+    position: absolute;
+  }
+  main section .new .center .menyu1 .plastikkarta .planshet .kok {
+    display: block;
+    right: 160px;
+    position: absolute;
+    top: 15px;
+  }
+  main section .new .center .menyu1 .plastikkarta .planshet .qora {
+    top: 25px;
+    right: 14px;
+    display: inline-block;
+    position: absolute;
+  }
+  main section .new .center .menyu1 .plastikkarta .baklashka {
+    display: none;
+  }
+  main section .new .center .menyu1 #sec1 {
+    max-width: 690px;
+    gap: 60px;
+    align-items: center;
+    height: 570px;
+  }
+  main section .new .center .menyu1 #sec1 .dumaloq {
+    max-width: 690px;
+    height: 65px;
+    align-items: center;
+  }
+  main section .new .center .menyu1 #sec1 .button {
+    max-width: 587px;
+    flex-direction: row;
+    gap: 44px;
+    flex-wrap: wrap;
+  }
+  main section .new .center .menyu1 #sec1 .button .buttonlar {
+    max-width: 195px;
+    justify-content: start;
+    row-gap: 10px;
+  }
+  main section .new .center .menyu1 #sec1 > img {
+    max-width: 340px;
+    max-height: 340px;
+  }
+  main section .new .center .menyu2 {
+    max-width: 768px;
+  }
+  main section .new .center .menyu2 .operation {
+    max-width: 690px;
+  }
+  main section .new .center .menyu2 .operation .operation-top {
+    max-width: 690px;
+  }
+  main section .new .center .menyu2 .operation .contents {
+    max-width: 690px;
+    width: 100%;
+  }
+  main section .new .center .menyu2 .operation .contents .content {
+    max-width: 665px;
+  }
+  main section .new .center .menyu2 .l-line {
+    max-width: 690px;
+  }
+  main section .new .center .menyu2 .l-line .card-box {
+    max-width: 150px;
+    height: 150px;
+  }
+  main section .new .center .menyu2 .l-line .box2 {
+    max-width: 330px;
+    align-items: start;
+  }
+}
+@media screen and (max-width: 480px) {
+  header nav .container {
+    max-width: 310px;
+  }
+  header nav .container .icons .left {
+    display: none;
+  }
+  header nav .container .icons .div .crl {
+    display: none;
+  }
+  header nav .container .icons .div .acc1 {
+    display: block;
+  }
+  main section .new {
+    max-width: 330px;
+    width: 100%;
+    align-items: center;
+  }
+  main section .new .center {
+    max-width: 350px;
+    padding: 30px 0;
+    align-items: center;
+  }
+  main section .new .center .menyu1 .plastikkarta {
+    flex-direction: column;
+    position: relative;
+  }
+  main section .new .center .menyu1 .plastikkarta .planshet .qora {
+    display: none;
+  }
+  main section .new .center .menyu1 .plastikkarta .planshet .kok {
+    display: none;
+  }
+  main section .new .center .menyu1 .plastikkarta .baklashka {
+    max-width: 235px;
+    gap: 8px;
+    display: inline-block;
+    display: flex;
+    align-items: start;
+    flex-direction: column-reverse;
+    position: absolute;
+    top: 195px;
+    left: 27.5px;
+    height: 50px;
+  }
+  main section .new .center .menyu1 .plastikkarta .baklashka .miniplastic {
+    flex-direction: row;
+    gap: 20px;
+  }
+  main section .new .center .menyu1 .plastikkarta .baklashka .line {
+    width: 40px;
+    height: 2px;
+    background: #FF6633;
+  }
+  main section .new .center .menyu1 #sec1 {
+    max-width: 320px;
+    height: 630px;
+    gap: 50px;
+  }
+  main section .new .center .menyu1 #sec1 .dumaloq {
+    max-width: 320px;
+    align-items: center;
+  }
+  main section .new .center .menyu1 #sec1 .dumaloq .Receipts div h2 {
+    display: flex;
+    overflow: hidden;
+    height: 20px;
+    width: 52px;
+  }
+  main section .new .center .menyu1 #sec1 .dumaloq .Receipts div:nth-child(1) h2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  main section .new .center .menyu1 #sec1 .button {
+    max-width: 320px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  main section .new .center .menyu1 #sec1 .button img {
+    max-width: 290px;
+    max-height: 290px;
+  }
+  main section .new .center .menyu1 #sec1 .button .buttonlar {
+    max-width: 320px;
+    justify-content: center;
+    row-gap: 10px;
+  }
+  main section .new .center .menyu1 #sec1 .button .buttonlar .buttons {
+    display: flex;
+    padding: 3px 15px 3px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  main section .new .center .menyu1 #sec1 .button .buttonlar .buttons h1 {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+  }
+  main section .new .center .menyu2 .operation {
+    max-width: 330px;
+    height: 630px;
+  }
+  main section .new .center .menyu2 .operation .operation-top {
+    max-width: 330px;
+  }
+  main section .new .center .menyu2 .operation .operation-top .text {
+    gap: 25px;
+  }
+  main section .new .center .menyu2 .operation .operation-top .text div {
+    max-width: 46px;
+  }
+  main section .new .center .menyu2 .operation .operation-top .text div h3 {
+    height: 20px;
+    overflow: hidden;
+  }
+  main section .new .center .menyu2 .operation .contents {
+    max-width: 330px;
+  }
+  main section .new .center .menyu2 .operation .contents .content {
+    max-width: 330px;
+  }
+  main section .new .center .menyu2 .operation .contents .content .item .text {
+    height: 50px;
+    overflow: hidden;
+    gap: 0;
+    align-items: start;
+    flex-direction: column;
+  }
+  main section .new .center .menyu2 .operation .contents .content .buttons .crl {
+    display: none;
+  }
+  main section .new .center .menyu2 .operation .content-box::-webkit-scrollbar {
+    width: 0;
+  }
+  main section .new .center .menyu2 .l-line .card-box {
+    max-width: 150px;
+    height: 150px;
+  }
+  main section .new .center .menyu2 .l-line .box2 {
+    max-width: 330px;
+    align-items: start;
+  }
+  main section .new .center .menyu2 .a1 {
+    flex-wrap: wrap-reverse;
+  }
+}/*# sourceMappingURL=media.css.map */
